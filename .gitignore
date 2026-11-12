@@ -1,0 +1,33 @@
+# Large or machine-specific data: re-created by the pipeline, never committed
+data/
+logs/
+outputs/*
+!outputs/full/
+outputs/full/*
+!outputs/full/dashboard/
+!outputs/full/tables/
+outputs/full/dashboard/case_study_old.parquet
+experiments/results/lab_table.parquet
+
+# Superseded report versions (the long draft still has the old, leaky model numbers); v2 is the final report
+report/build_report.js
+report/Hot_Oceans_Final_Report_253318.*
+report/Hot_Oceans_Report_253318.docx
+report/Hot_Oceans_Report_253318.pdf
+
+# Private settings and local files
+dgx/hub_settings.json
+0254c1a38d1d435a9e3e27b5f63b5c44
+.env
+*.token
+~$*
+
+# Python / Spark / tools
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+spark-warehouse/
+metastore_db/
+derby.log
+node_modules/

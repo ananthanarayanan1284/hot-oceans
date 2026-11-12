@@ -1,0 +1,29 @@
+# conda env create -f environment.yml   (inside WSL Ubuntu on the PC, or on the DGX)
+# Pin pyspark + apache-sedona to a pair from Sedona's compatibility table before the first full run.
+name: hot-oceans
+channels: [conda-forge]
+dependencies:
+  - python=3.11
+  - openjdk=17
+  - pyspark=3.5.*
+  - numpy
+  - pandas
+  - pyarrow
+  - xarray
+  - netcdf4
+  - scipy
+  - scikit-learn
+  - geopandas
+  - shapely
+  - sqlalchemy
+  - psycopg2
+  - geoalchemy2
+  - matplotlib
+  - requests
+  - pyyaml
+  - pytest
+  - streamlit
+  - pydeck
+  - pip
+  - pip:
+      - apache-sedona==1.6.1   # pyspark comes from conda above; the [spark] extra would install a second copy

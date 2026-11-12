@@ -1,0 +1,71 @@
+# Hot Oceans — one config for both machines.
+# Override per run with --env/--mode or the HOT_OCEANS_ENV / HOT_OCEANS_MODE environment variables.
+env: pc            # pc | dgx
+mode: dev          # dev = small box (Lakshadweep area, all years) | full = whole Indian Ocean box
+
+box:
+  full: {lat_min: -30, lat_max: 30, lon_min: 30, lon_max: 120}
+  dev:  {lat_min: 5,   lat_max: 15, lon_min: 65, lon_max: 80}
+
+years: {start: 1982, end: 2025}
+baseline: {start: "1991-01-01", end: "2020-12-31"}
+grid: {res: 0.25, n_buckets: 64}
+
+hobday:                      # Hobday et al. 2016 / 2018
+  window_half_width: 5       # days either side when pooling the climatology
+  smooth_width: 31           # moving-average smoothing of climatology and threshold
+  percentile: 90
+  min_duration: 5            # days above threshold to count as a heatwave
+  max_gap: 2                 # join events separated by gaps of this many days or fewer
+
+events:
+  dbscan_eps_cells: 1.5      # eps in grid cells (clustering runs on row/col indices)
+  dbscan_min_samples: 4
+  min_footprint_cells: 20    # ignore daily clusters smaller than this
+  footprint_buffer_deg: 0.2  # buffer hulls so touching footprints on consecutive days intersect
+  min_event_days: 5
+
+model:
+  horizon_days: 7            # label = in a heatwave on any of the next 7 days (cells not in a confirmed heatwave)
+  fit_end_year: 2014         # fit 1982–2014
+  train_end_year: 2018       # validation 2015–2018 (early stopping, thresholds, model choice); test 2019+
+  sample:                    # share of rows kept: fit years thinned by class (weights undo it), val/test uniform
+    dev:  {fit_positive: 0.5,  fit_negative: 0.06,  val: 0.3,  test: 1.0}
+    full: {fit_positive: 0.03, fit_negative: 0.004, val: 0.02, test: 0.25}   # ~30x more cells than dev
+  n_spatial_folds: 5
+  spatial_cv: {dev: false, full: true}
+  gbt: {max_iter: 400, max_depth: 6, step_size: 0.05, subsampling_rate: 0.8, feature_subset: "all", validation_tol: 0.00001}
+  rf_trees: 150
+  rf_max_depth: 10
+
+phases:
+  iod_threshold: 0.4         # DMI >= +0.4 positive, <= -0.4 negative
+  enso_threshold: 0.5        # ONI >= +0.5 El Niño, <= -0.5 La Niña
+
+case_study: {name: Lakshadweep, lat: 10.57, lon: 72.64, start: "2023-05-01", end: "2024-06-30"}
+dashboard: {start: "2023-01-01", end: "2024-12-31"}
+
+paths:
+  pc:  {data: "./data",  outputs: "./outputs"}
+  dgx: {data: "./data", outputs: "./outputs"}   # ~/hot-oceans on the DGX (JupyterHub home; no /scratch there)
+
+spark:
+  pc:  {master: "local[8]",  driver_memory: "6g",   shuffle_partitions: 32,  local_dir: "./data/spark-tmp",
+        hadoop_home: "C:/Users/anant/hadoop"}   # Windows only: folder holding bin/winutils.exe and bin/hadoop.dll
+  dgx: {master: "local[48]", driver_memory: "200g", shuffle_partitions: 384, local_dir: "./data/spark-tmp"}   # 48 of 256 shared cores
+  # Pin to the Sedona/Spark pair you install (check Sedona's compatibility table on Day 1).
+  packages: "org.apache.sedona:sedona-spark-shaded-3.5_2.12:1.6.1,org.datasyslab:geotools-wrapper:1.6.1-28.2"
+  # If DGX compute nodes have no internet: download the two JARs on the login node and list them here instead.
+  jars: ""
+
+postgis:
+  pc:  "postgresql://hot@localhost:5433/hot_oceans"   # private project database: sql/pg_local.ps1 (init/start/stop)
+  dgx: "postgresql://hot@localhost:5433/hot_oceans"
+  enabled: {pc: false, dgx: false}   # when false, spatial tables are saved as GeoParquet under outputs/<mode>/postgis/
+
+sources:                     # verify each URL answers on Day 1
+  oisst_psl: "https://psl.noaa.gov/thredds/dodsC/Datasets/noaa.oisst.v2.highres/sst.day.mean.{year}.nc"   # default (OPeNDAP, 0–360 longitudes)
+  oisst_erddap: "https://coastwatch.pfeg.noaa.gov/erddap/griddap/ncdcOisst21Agg_LonPM180.nc"            # alternative; unreachable from the PC on 23 Oct
+  dmi: "https://psl.noaa.gov/gcos_wgsp/Timeseries/Data/dmi.had.long.data"
+  oni: "https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt"
+  meow: "Download the MEOW shapefile (Marine Ecoregions of the World) and unzip it to data/aux/meow/"

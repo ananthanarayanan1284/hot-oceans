@@ -1,0 +1,658 @@
+timestamp,env,mode,stage,step,rows,seconds,output_mb,partitions,note
+2026-11-03T11:47:44,dgx,full,smoke,spark_sedona_parquet,1000,24.2,,,ok
+2026-11-03T11:51:53,dgx,full,download,oisst_1982,31536000,153.8,40.1,,"{'time': 365, 'lon': 360, 'lat': 240}"
+2026-11-03T11:55:19,dgx,full,download,oisst_1993,31536000,150.7,39.4,,"{'time': 365, 'lon': 360, 'lat': 240}"
+2026-11-03T11:55:20,dgx,full,download,oisst_2004,31622400,151.7,39.6,,"{'time': 366, 'lon': 360, 'lat': 240}"
+2026-11-03T11:55:33,dgx,full,download,oisst_1983,31536000,164.6,40.0,,"{'time': 365, 'lon': 360, 'lat': 240}"
+2026-11-03T11:55:36,dgx,full,download,oisst_2015,31536000,167.5,35.6,,"{'time': 365, 'lon': 360, 'lat': 240}"
+2026-11-03T11:57:53,dgx,full,download,oisst_2005,31536000,153.5,39.6,,"{'time': 365, 'lon': 360, 'lat': 240}"
+2026-11-03T11:57:58,dgx,full,download,oisst_1994,31536000,159.0,38.9,,"{'time': 365, 'lon': 360, 'lat': 240}"
+2026-11-03T11:58:09,dgx,full,download,oisst_2016,31622400,153.6,39.1,,"{'time': 366, 'lat': 240, 'lon': 360}"
+2026-11-03T11:58:17,dgx,full,download,oisst_1984,31622400,163.8,39.6,,"{'time': 366, 'lon': 360, 'lat': 240}"
+2026-11-03T12:00:48,dgx,full,download,oisst_1995,31536000,170.2,39.7,,"{'time': 365, 'lon': 360, 'lat': 240}"
+2026-11-03T12:00:54,dgx,full,download,oisst_2006,31536000,181.0,39.4,,"{'time': 365, 'lon': 360, 'lat': 240}"
+2026-11-03T12:01:25,dgx,full,download,oisst_2017,31536000,195.3,38.8,,"{'time': 365, 'lat': 240, 'lon': 360}"
+2026-11-03T12:01:25,dgx,full,download,oisst_1985,31536000,188.8,39.7,,"{'time': 365, 'lon': 360, 'lat': 240}"
+2026-11-03T12:04:47,dgx,full,download,oisst_1996,31622400,238.9,39.9,,"{'time': 366, 'lon': 360, 'lat': 240}"
+2026-11-03T12:05:03,dgx,full,download,oisst_2007,31536000,248.4,38.9,,"{'time': 365, 'lon': 360, 'lat': 240}"
+2026-11-03T12:05:27,dgx,full,download,oisst_1986,31536000,241.9,39.2,,"{'time': 365, 'lon': 360, 'lat': 240}"
+2026-11-03T12:05:43,dgx,full,download,oisst_2018,31536000,258.7,38.9,,"{'time': 365, 'lat': 240, 'lon': 360}"
+2026-11-03T12:10:34,dgx,full,download,oisst_2008,31622400,331.3,39.0,,"{'time': 366, 'lon': 360, 'lat': 240}"
+2026-11-03T12:10:37,dgx,full,download,oisst_1997,31536000,350.4,39.7,,"{'time': 365, 'lon': 360, 'lat': 240}"
+2026-11-03T12:11:33,dgx,full,download,oisst_1987,31536000,365.8,39.6,,"{'time': 365, 'lon': 360, 'lat': 240}"
+2026-11-03T12:11:56,dgx,full,download,oisst_2019,31536000,372.5,38.9,,"{'time': 365, 'lat': 240, 'lon': 360}"
+2026-11-03T12:17:59,dgx,full,download,oisst_2009,31536000,444.8,38.9,,"{'time': 365, 'lon': 360, 'lat': 240}"
+2026-11-03T12:18:03,dgx,full,download,oisst_1998,31536000,445.6,39.7,,"{'time': 365, 'lon': 360, 'lat': 240}"
+2026-11-03T12:19:14,dgx,full,download,oisst_1988,31622400,461.2,39.8,,"{'time': 366, 'lon': 360, 'lat': 240}"
+2026-11-03T12:19:24,dgx,full,download,oisst_2020,31622400,448.4,38.8,,"{'time': 366, 'lat': 240, 'lon': 360}"
+2026-11-03T12:24:39,dgx,full,download,oisst_2010,31536000,400.4,38.8,,"{'time': 365, 'lon': 360, 'lat': 240}"
+2026-11-03T12:24:45,dgx,full,download,oisst_1999,31536000,402.2,39.7,,"{'time': 365, 'lon': 360, 'lat': 240}"
+2026-11-03T12:26:28,dgx,full,download,oisst_1989,31536000,434.1,39.7,,"{'time': 365, 'lon': 360, 'lat': 240}"
+2026-11-03T12:27:04,dgx,full,download,oisst_2021,31536000,459.6,38.0,,"{'time': 365, 'lat': 240, 'lon': 360}"
+2026-11-03T12:32:28,dgx,full,download,oisst_2000,31622400,462.7,39.8,,"{'time': 366, 'lon': 360, 'lat': 240}"
+2026-11-03T12:32:31,dgx,full,download,oisst_2011,31536000,471.2,35.6,,"{'time': 365, 'lon': 360, 'lat': 240}"
+2026-11-03T12:33:50,dgx,full,download,oisst_1990,31536000,441.6,39.7,,"{'time': 365, 'lon': 360, 'lat': 240}"
+2026-11-03T12:34:14,dgx,full,download,oisst_2022,31536000,430.4,37.2,,"{'time': 365, 'lat': 240, 'lon': 360}"
+2026-11-03T12:37:51,dgx,full,download,oisst_2012,31622400,320.6,39.1,,"{'time': 366, 'lat': 240, 'lon': 360}"
+2026-11-03T12:38:03,dgx,full,download,oisst_2001,31536000,335.1,39.6,,"{'time': 365, 'lon': 360, 'lat': 240}"
+2026-11-03T12:38:59,dgx,full,download,oisst_1991,31536000,309.4,39.6,,"{'time': 365, 'lon': 360, 'lat': 240}"
+2026-11-03T12:39:29,dgx,full,download,oisst_2023,31536000,315.0,36.9,,"{'time': 365, 'lat': 240, 'lon': 360}"
+2026-11-03T12:42:33,dgx,full,download,oisst_2013,31536000,281.8,39.0,,"{'time': 365, 'lon': 360, 'lat': 240}"
+2026-11-03T12:42:51,dgx,full,download,oisst_2002,31536000,287.8,39.6,,"{'time': 365, 'lon': 360, 'lat': 240}"
+2026-11-03T12:43:32,dgx,full,download,oisst_1992,31622400,272.5,39.6,,"{'time': 366, 'lon': 360, 'lat': 240}"
+2026-11-03T12:44:24,dgx,full,download,oisst_2024,31622400,295.1,37.2,,"{'time': 366, 'lat': 240, 'lon': 360}"
+2026-11-03T12:48:58,dgx,full,download,oisst_2014,31536000,385.5,39.0,,"{'time': 365, 'lon': 360, 'lat': 240}"
+2026-11-03T12:49:45,dgx,full,download,oisst_2003,31536000,413.9,39.4,,"{'time': 365, 'lon': 360, 'lat': 240}"
+2026-11-03T12:51:47,dgx,full,download,oisst_2025,31536000,443.0,37.0,,"{'time': 365, 'lat': 240, 'lon': 360}"
+2026-11-03T12:52:10,dgx,full,A,ingest_1982,21291910,12.8,79.5,,"365 days, 58334 cells"
+2026-11-03T12:52:14,dgx,full,A,append_by_cell_1982,,4.9,37.3,64,
+2026-11-03T12:52:27,dgx,full,A,ingest_1983,21291910,12.3,79.6,,"365 days, 58334 cells"
+2026-11-03T12:52:29,dgx,full,A,append_by_cell_1983,,2.1,74.6,64,
+2026-11-03T12:52:42,dgx,full,A,ingest_1984,21528011,12.8,80.4,,"366 days, 86400 cells"
+2026-11-03T12:52:44,dgx,full,A,append_by_cell_1984,,2.0,132.1,64,
+2026-11-03T12:52:56,dgx,full,A,ingest_1985,21291910,12.6,79.5,,"365 days, 58336 cells"
+2026-11-03T12:52:59,dgx,full,A,append_by_cell_1985,,2.3,169.4,64,
+2026-11-03T12:53:11,dgx,full,A,ingest_1986,20879544,12.4,77.8,,"365 days, 70801 cells"
+2026-11-03T12:53:13,dgx,full,A,append_by_cell_1986,,2.1,215.6,64,
+2026-11-03T12:53:25,dgx,full,A,ingest_1987,21291910,12.2,79.5,,"365 days, 58334 cells"
+2026-11-03T12:53:27,dgx,full,A,append_by_cell_1987,,1.5,252.9,64,
+2026-11-03T12:53:38,dgx,full,A,ingest_1988,21350244,11.7,79.7,,"366 days, 58334 cells"
+2026-11-03T12:53:40,dgx,full,A,append_by_cell_1988,,1.5,290.2,64,
+2026-11-03T12:53:53,dgx,full,A,ingest_1989,21291910,12.5,79.5,,"365 days, 58336 cells"
+2026-11-03T12:53:54,dgx,full,A,append_by_cell_1989,,1.4,327.5,64,
+2026-11-03T12:54:06,dgx,full,A,ingest_1990,21291910,12.1,79.5,,"365 days, 58334 cells"
+2026-11-03T12:54:07,dgx,full,A,append_by_cell_1990,,1.3,364.8,64,
+2026-11-03T12:54:20,dgx,full,A,ingest_1991,21291910,12.2,79.5,,"365 days, 58334 cells"
+2026-11-03T12:54:21,dgx,full,A,append_by_cell_1991,,1.6,402.0,64,
+2026-11-03T12:54:33,dgx,full,A,ingest_1992,21350244,12.1,79.7,,"366 days, 58336 cells"
+2026-11-03T12:54:35,dgx,full,A,append_by_cell_1992,,1.5,439.4,64,
+2026-11-03T12:54:47,dgx,full,A,ingest_1993,21291910,12.2,79.5,,"365 days, 58334 cells"
+2026-11-03T12:54:49,dgx,full,A,append_by_cell_1993,,1.5,476.6,64,
+2026-11-03T12:55:01,dgx,full,A,ingest_1994,21468197,12.9,80.0,,"365 days, 86400 cells"
+2026-11-03T12:55:03,dgx,full,A,append_by_cell_1994,,1.4,533.6,64,
+2026-11-03T12:55:15,dgx,full,A,ingest_1995,21291910,12.4,79.5,,"365 days, 58334 cells"
+2026-11-03T12:55:17,dgx,full,A,append_by_cell_1995,,1.5,570.8,64,
+2026-11-03T12:55:28,dgx,full,A,ingest_1996,21350244,11.4,79.9,,"366 days, 58334 cells"
+2026-11-03T12:55:30,dgx,full,A,append_by_cell_1996,,1.5,608.2,64,
+2026-11-03T12:55:42,dgx,full,A,ingest_1997,21291910,12.2,79.5,,"365 days, 58334 cells"
+2026-11-03T12:55:43,dgx,full,A,append_by_cell_1997,,1.4,645.4,64,
+2026-11-03T12:55:56,dgx,full,A,ingest_1998,21291910,12.4,79.5,,"365 days, 58334 cells"
+2026-11-03T12:55:57,dgx,full,A,append_by_cell_1998,,1.5,682.7,64,
+2026-11-03T12:56:10,dgx,full,A,ingest_1999,21291910,12.3,79.6,,"365 days, 58334 cells"
+2026-11-03T12:56:11,dgx,full,A,append_by_cell_1999,,1.4,720.0,64,
+2026-11-03T12:56:22,dgx,full,A,ingest_2000,21350244,11.4,79.7,,"366 days, 58334 cells"
+2026-11-03T12:56:24,dgx,full,A,append_by_cell_2000,,1.4,757.3,64,
+2026-11-03T12:56:36,dgx,full,A,ingest_2001,21291910,11.9,79.5,,"365 days, 58334 cells"
+2026-11-03T12:56:38,dgx,full,A,append_by_cell_2001,,1.8,794.5,64,
+2026-11-03T12:56:50,dgx,full,A,ingest_2002,21291910,12.8,79.5,,"365 days, 58336 cells"
+2026-11-03T12:56:52,dgx,full,A,append_by_cell_2002,,1.6,831.8,64,
+2026-11-03T12:57:04,dgx,full,A,ingest_2003,21291910,12.2,79.5,,"365 days, 58334 cells"
+2026-11-03T12:57:06,dgx,full,A,append_by_cell_2003,,1.4,869.1,64,
+2026-11-03T12:57:17,dgx,full,A,ingest_2004,21350244,11.5,79.7,,"366 days, 58334 cells"
+2026-11-03T12:57:19,dgx,full,A,append_by_cell_2004,,1.4,906.5,64,
+2026-11-03T12:57:31,dgx,full,A,ingest_2005,21291910,12.1,79.5,,"365 days, 58334 cells"
+2026-11-03T12:57:32,dgx,full,A,append_by_cell_2005,,1.4,943.7,64,
+2026-11-03T12:57:45,dgx,full,A,ingest_2006,21291910,13.2,79.5,,"365 days, 58334 cells"
+2026-11-03T12:57:47,dgx,full,A,append_by_cell_2006,,1.5,981.0,64,
+2026-11-03T12:57:59,dgx,full,A,ingest_2007,21291910,12.0,79.5,,"365 days, 58334 cells"
+2026-11-03T12:58:00,dgx,full,A,append_by_cell_2007,,1.3,1018.3,64,
+2026-11-03T12:58:12,dgx,full,A,ingest_2008,21350244,11.4,79.7,,"366 days, 58334 cells"
+2026-11-03T12:58:13,dgx,full,A,append_by_cell_2008,,1.5,1055.6,64,
+2026-11-03T12:58:25,dgx,full,A,ingest_2009,21291910,12.2,79.5,,"365 days, 58334 cells"
+2026-11-03T12:58:27,dgx,full,A,append_by_cell_2009,,1.4,1092.9,64,
+2026-11-03T12:58:39,dgx,full,A,ingest_2010,21291910,12.4,79.5,,"365 days, 58334 cells"
+2026-11-03T12:58:41,dgx,full,A,append_by_cell_2010,,1.4,1130.1,64,
+2026-11-03T12:58:54,dgx,full,A,ingest_2011,22157555,13.1,79.6,,"365 days, 86400 cells"
+2026-11-03T12:58:55,dgx,full,A,append_by_cell_2011,,1.4,1175.1,64,
+2026-11-03T12:59:07,dgx,full,A,ingest_2012,21350244,11.5,79.7,,"366 days, 58334 cells"
+2026-11-03T12:59:08,dgx,full,A,append_by_cell_2012,,1.4,1212.4,64,
+2026-11-03T12:59:20,dgx,full,A,ingest_2013,21291910,12.5,79.5,,"365 days, 58334 cells"
+2026-11-03T12:59:22,dgx,full,A,append_by_cell_2013,,1.5,1249.7,64,
+2026-11-03T12:59:34,dgx,full,A,ingest_2014,21291910,12.1,79.5,,"365 days, 58334 cells"
+2026-11-03T12:59:36,dgx,full,A,append_by_cell_2014,,1.4,1286.9,64,
+2026-11-03T12:59:49,dgx,full,A,ingest_2015,22161956,12.9,79.6,,"365 days, 86400 cells"
+2026-11-03T12:59:50,dgx,full,A,append_by_cell_2015,,1.3,1331.7,64,
+2026-11-03T13:00:02,dgx,full,A,ingest_2016,21350259,11.9,79.7,,"366 days, 67752 cells"
+2026-11-03T13:00:03,dgx,full,A,append_by_cell_2016,,1.4,1376.0,64,
+2026-11-03T13:00:16,dgx,full,A,ingest_2017,21291910,12.3,79.5,,"365 days, 58334 cells"
+2026-11-03T13:00:17,dgx,full,A,append_by_cell_2017,,1.4,1413.3,64,
+2026-11-03T13:00:29,dgx,full,A,ingest_2018,21291910,12.1,79.5,,"365 days, 58334 cells"
+2026-11-03T13:00:30,dgx,full,A,append_by_cell_2018,,1.3,1450.5,64,
+2026-11-03T13:00:42,dgx,full,A,ingest_2019,21291910,12.0,79.5,,"365 days, 58334 cells"
+2026-11-03T13:00:44,dgx,full,A,append_by_cell_2019,,1.4,1487.8,64,
+2026-11-03T13:00:56,dgx,full,A,ingest_2020,21350244,11.8,79.7,,"366 days, 58334 cells"
+2026-11-03T13:00:57,dgx,full,A,append_by_cell_2020,,1.3,1525.1,64,
+2026-11-03T13:01:09,dgx,full,A,ingest_2021,21291910,12.0,79.5,,"365 days, 58334 cells"
+2026-11-03T13:01:10,dgx,full,A,append_by_cell_2021,,1.3,1562.4,64,
+2026-11-03T13:01:23,dgx,full,A,ingest_2022,21291910,12.1,79.5,,"365 days, 58334 cells"
+2026-11-03T13:01:24,dgx,full,A,append_by_cell_2022,,1.3,1599.6,64,
+2026-11-03T13:01:36,dgx,full,A,ingest_2023,21291910,12.0,79.5,,"365 days, 58334 cells"
+2026-11-03T13:01:37,dgx,full,A,append_by_cell_2023,,1.4,1636.9,64,
+2026-11-03T13:01:50,dgx,full,A,ingest_2024,21350244,12.4,79.7,,"366 days, 58336 cells"
+2026-11-03T13:01:51,dgx,full,A,append_by_cell_2024,,1.3,1674.1,64,
+2026-11-03T13:02:03,dgx,full,A,ingest_2025,21291910,12.0,79.5,,"365 days, 58334 cells"
+2026-11-03T13:02:04,dgx,full,A,append_by_cell_2025,,1.3,1711.4,64,
+2026-11-03T13:02:48,dgx,full,A,lake_check,939163108,43.0,,,duplicates=0 nulls=0
+2026-11-03T13:03:02,dgx,full,A,cells,86400,14.1,3.8,,
+2026-11-03T13:03:20,dgx,full,B,detect_bucket_0,13979376,8.1,208.3,,
+2026-11-03T13:03:24,dgx,full,B,detect_bucket_1,14138790,3.4,211.2,,
+2026-11-03T13:03:27,dgx,full,B,detect_bucket_2,14393536,3.6,215.6,,
+2026-11-03T13:03:32,dgx,full,B,detect_bucket_3,14552663,4.4,218.1,,
+2026-11-03T13:03:35,dgx,full,B,detect_bucket_4,14488951,3.2,216.7,,
+2026-11-03T13:03:38,dgx,full,B,detect_bucket_5,14473043,3.2,216.4,,
+2026-11-03T13:03:41,dgx,full,B,detect_bucket_6,14536998,3.1,217.5,,
+2026-11-03T13:03:45,dgx,full,B,detect_bucket_7,14600524,3.5,218.6,,
+2026-11-03T13:03:48,dgx,full,B,detect_bucket_8,14679420,3.3,219.8,,
+2026-11-03T13:03:51,dgx,full,B,detect_bucket_9,14775372,3.3,221.3,,
+2026-11-03T13:03:54,dgx,full,B,detect_bucket_10,14758370,3.1,221.1,,
+2026-11-03T13:03:58,dgx,full,B,detect_bucket_11,14632030,3.3,218.9,,
+2026-11-03T13:04:01,dgx,full,B,detect_bucket_12,14628175,3.2,218.9,,
+2026-11-03T13:04:04,dgx,full,B,detect_bucket_13,14723765,3.3,220.6,,
+2026-11-03T13:04:07,dgx,full,B,detect_bucket_14,14834405,3.0,221.7,,
+2026-11-03T13:04:10,dgx,full,B,detect_bucket_15,14882286,3.0,223.0,,
+2026-11-03T13:04:14,dgx,full,B,detect_bucket_16,14819561,3.2,221.6,,
+2026-11-03T13:04:17,dgx,full,B,detect_bucket_17,14787645,3.3,221.7,,
+2026-11-03T13:04:20,dgx,full,B,detect_bucket_18,14724430,3.3,220.1,,
+2026-11-03T13:04:23,dgx,full,B,detect_bucket_19,14581547,3.4,218.2,,
+2026-11-03T13:04:27,dgx,full,B,detect_bucket_20,14598072,3.3,218.3,,
+2026-11-03T13:04:30,dgx,full,B,detect_bucket_21,14693345,3.3,219.9,,
+2026-11-03T13:04:33,dgx,full,B,detect_bucket_22,14662346,3.1,219.2,,
+2026-11-03T13:04:37,dgx,full,B,detect_bucket_23,14757459,3.4,221.2,,
+2026-11-03T13:04:40,dgx,full,B,detect_bucket_24,14759731,3.1,220.4,,
+2026-11-03T13:04:43,dgx,full,B,detect_bucket_25,14696398,3.0,219.4,,
+2026-11-03T13:04:46,dgx,full,B,detect_bucket_26,14728297,3.2,220.2,,
+2026-11-03T13:04:49,dgx,full,B,detect_bucket_27,14760253,3.1,220.6,,
+2026-11-03T13:04:52,dgx,full,B,detect_bucket_28,14872426,3.2,222.4,,
+2026-11-03T13:04:56,dgx,full,B,detect_bucket_29,14872504,3.4,222.2,,
+2026-11-03T13:04:59,dgx,full,B,detect_bucket_30,15063007,3.7,225.6,,
+2026-11-03T13:05:03,dgx,full,B,detect_bucket_31,15174262,3.3,226.8,,
+2026-11-03T13:05:06,dgx,full,B,detect_bucket_32,13852510,3.2,206.4,,
+2026-11-03T13:05:09,dgx,full,B,detect_bucket_33,14106834,3.0,210.4,,
+2026-11-03T13:05:12,dgx,full,B,detect_bucket_34,14393297,3.2,215.1,,
+2026-11-03T13:05:15,dgx,full,B,detect_bucket_35,14504315,3.2,217.2,,
+2026-11-03T13:05:18,dgx,full,B,detect_bucket_36,14536882,3.1,217.6,,
+2026-11-03T13:05:21,dgx,full,B,detect_bucket_37,14457135,3.0,215.9,,
+2026-11-03T13:05:24,dgx,full,B,detect_bucket_38,14552535,3.0,217.2,,
+2026-11-03T13:05:27,dgx,full,B,detect_bucket_39,14695412,3.1,219.8,,
+2026-11-03T13:05:30,dgx,full,B,detect_bucket_40,14664072,2.9,219.8,,
+2026-11-03T13:05:33,dgx,full,B,detect_bucket_41,14711373,3.1,220.6,,
+2026-11-03T13:05:36,dgx,full,B,detect_bucket_42,14742903,3.0,220.7,,
+2026-11-03T13:05:39,dgx,full,B,detect_bucket_43,14679856,3.0,219.5,,
+2026-11-03T13:05:42,dgx,full,B,detect_bucket_44,14643489,3.1,219.2,,
+2026-11-03T13:05:45,dgx,full,B,detect_bucket_45,14644109,2.9,219.3,,
+2026-11-03T13:05:49,dgx,full,B,detect_bucket_46,14882597,3.4,223.2,,
+2026-11-03T13:05:52,dgx,full,B,detect_bucket_47,14818997,3.1,222.0,,
+2026-11-03T13:05:55,dgx,full,B,detect_bucket_48,14756031,3.0,220.7,,
+2026-11-03T13:05:58,dgx,full,B,detect_bucket_49,14772192,3.0,221.1,,
+2026-11-03T13:06:01,dgx,full,B,detect_bucket_50,14740587,3.0,220.8,,
+2026-11-03T13:06:04,dgx,full,B,detect_bucket_51,14645024,3.0,219.1,,
+2026-11-03T13:06:07,dgx,full,B,detect_bucket_52,14676506,3.1,220.0,,
+2026-11-03T13:06:10,dgx,full,B,detect_bucket_53,14677483,3.1,220.0,,
+2026-11-03T13:06:13,dgx,full,B,detect_bucket_54,14661361,3.3,219.7,,
+2026-11-03T13:06:16,dgx,full,B,detect_bucket_55,14725629,3.1,220.3,,
+2026-11-03T13:06:20,dgx,full,B,detect_bucket_56,14839934,3.5,221.3,,
+2026-11-03T13:06:23,dgx,full,B,detect_bucket_57,14760347,3.2,220.2,,
+2026-11-03T13:06:26,dgx,full,B,detect_bucket_58,14744494,3.2,220.2,,
+2026-11-03T13:06:30,dgx,full,B,detect_bucket_59,14777051,3.5,220.7,,
+2026-11-03T13:06:33,dgx,full,B,detect_bucket_60,14808979,3.3,221.4,,
+2026-11-03T13:06:36,dgx,full,B,detect_bucket_61,14952291,3.2,223.2,,
+2026-11-03T13:06:40,dgx,full,B,detect_bucket_62,15031420,3.3,224.5,,
+2026-11-03T13:06:43,dgx,full,B,detect_bucket_63,15078476,3.2,225.6,,
+2026-11-03T13:06:47,dgx,full,B,summary,939163108,4.7,,,heatwave cell-days=68655676 (7.3%)
+2026-11-03T13:07:11,dgx,full,C,dbscan,67940042,15.5,883.2,,
+2026-11-03T13:07:26,dgx,full,C,footprints,291728,14.4,155.8,,
+2026-11-03T13:07:34,dgx,full,C,link,323555,8.0,,,291728 footprints
+2026-11-03T13:09:00,dgx,full,C,catalogue,14410,86.7,,,
+2026-11-03T13:09:41,dgx,full,D,kmeans,14410,16.2,,,best k=3 silhouette=0.437
+2026-11-03T13:09:43,dgx,full,D,fpgrowth,71,2.2,,,
+2026-11-03T13:11:28,dgx,full,E,neighbour_features,939163108,96.0,4637.0,,
+2026-11-03T13:11:45,dgx,full,E,features_bucket_0,1851548,16.4,83.8,,
+2026-11-03T13:11:58,dgx,full,E,features_bucket_1,1872406,13.1,84.7,,
+2026-11-03T13:12:10,dgx,full,E,features_bucket_10,1958147,12.1,88.6,,
+2026-11-03T13:12:24,dgx,full,E,features_bucket_11,1940137,13.6,87.8,,
+2026-11-03T13:12:34,dgx,full,E,features_bucket_12,1938757,10.7,87.8,,
+2026-11-03T13:12:46,dgx,full,E,features_bucket_13,1952530,11.8,88.4,,
+2026-11-03T13:12:59,dgx,full,E,features_bucket_14,1968034,12.5,89.0,,
+2026-11-03T13:13:12,dgx,full,E,features_bucket_15,1974714,13.0,89.3,,
+2026-11-03T13:13:24,dgx,full,E,features_bucket_16,1964810,12.8,88.9,,
+2026-11-03T13:13:36,dgx,full,E,features_bucket_17,1960442,12.1,88.7,,
+2026-11-03T13:13:50,dgx,full,E,features_bucket_18,1952302,13.5,88.3,,
+2026-11-03T13:14:02,dgx,full,E,features_bucket_19,1933784,11.9,87.5,,
+2026-11-03T13:14:12,dgx,full,E,features_bucket_2,1906971,10.5,86.3,,
+2026-11-03T13:14:22,dgx,full,E,features_bucket_20,1935135,9.7,87.5,,
+2026-11-03T13:14:34,dgx,full,E,features_bucket_21,1949942,12.3,88.2,,
+2026-11-03T13:14:46,dgx,full,E,features_bucket_22,1945631,12.0,88.0,,
+2026-11-03T13:14:59,dgx,full,E,features_bucket_23,1958089,12.6,88.6,,
+2026-11-03T13:15:09,dgx,full,E,features_bucket_24,1955568,10.0,88.5,,
+2026-11-03T13:15:20,dgx,full,E,features_bucket_25,1945775,10.6,88.0,,
+2026-11-03T13:15:32,dgx,full,E,features_bucket_26,1948748,12.8,88.2,,
+2026-11-03T13:15:45,dgx,full,E,features_bucket_27,1951760,12.1,88.3,,
+2026-11-03T13:15:57,dgx,full,E,features_bucket_28,1966088,12.6,89.0,,
+2026-11-03T13:16:10,dgx,full,E,features_bucket_29,1967185,13.2,89.0,,
+2026-11-03T13:16:21,dgx,full,E,features_bucket_3,1931371,10.9,87.4,,
+2026-11-03T13:16:36,dgx,full,E,features_bucket_30,1990789,14.6,90.1,,
+2026-11-03T13:16:50,dgx,full,E,features_bucket_31,2008453,14.1,90.9,,
+2026-11-03T13:17:05,dgx,full,E,features_bucket_32,1832767,15.1,83.0,,
+2026-11-03T13:17:22,dgx,full,E,features_bucket_33,1867823,17.3,84.5,,
+2026-11-03T13:17:36,dgx,full,E,features_bucket_34,1906693,13.2,86.3,,
+2026-11-03T13:17:49,dgx,full,E,features_bucket_35,1925246,13.6,87.1,,
+2026-11-03T13:18:04,dgx,full,E,features_bucket_36,1932760,14.9,87.5,,
+2026-11-03T13:18:17,dgx,full,E,features_bucket_37,1922482,12.5,87.0,,
+2026-11-03T13:18:30,dgx,full,E,features_bucket_38,1934953,13.0,87.6,,
+2026-11-03T13:18:42,dgx,full,E,features_bucket_39,1954460,12.4,88.5,,
+2026-11-03T13:18:53,dgx,full,E,features_bucket_4,1925367,11.4,87.1,,
+2026-11-03T13:19:06,dgx,full,E,features_bucket_40,1949039,12.8,88.2,,
+2026-11-03T13:19:20,dgx,full,E,features_bucket_41,1953408,13.5,88.4,,
+2026-11-03T13:19:35,dgx,full,E,features_bucket_42,1955940,15.3,88.5,,
+2026-11-03T13:19:48,dgx,full,E,features_bucket_43,1946576,13.0,88.1,,
+2026-11-03T13:19:59,dgx,full,E,features_bucket_44,1942015,10.6,87.9,,
+2026-11-03T13:20:12,dgx,full,E,features_bucket_45,1941838,13.6,87.9,,
+2026-11-03T13:20:24,dgx,full,E,features_bucket_46,1973977,12.0,89.3,,
+2026-11-03T13:20:37,dgx,full,E,features_bucket_47,1965178,12.5,88.9,,
+2026-11-03T13:20:49,dgx,full,E,features_bucket_48,1956822,12.3,88.6,,
+2026-11-03T13:21:02,dgx,full,E,features_bucket_49,1958585,12.5,88.6,,
+2026-11-03T13:21:15,dgx,full,E,features_bucket_5,1924547,13.3,87.1,,
+2026-11-03T13:21:27,dgx,full,E,features_bucket_50,1954612,12.2,88.5,,
+2026-11-03T13:21:40,dgx,full,E,features_bucket_51,1941805,12.6,87.8,,
+2026-11-03T13:21:52,dgx,full,E,features_bucket_52,1947061,12.9,88.1,,
+2026-11-03T13:22:05,dgx,full,E,features_bucket_53,1947323,12.4,88.1,,
+2026-11-03T13:22:16,dgx,full,E,features_bucket_54,1945024,11.3,88.0,,
+2026-11-03T13:22:30,dgx,full,E,features_bucket_55,1954299,13.8,88.4,,
+2026-11-03T13:22:44,dgx,full,E,features_bucket_56,1967591,13.7,89.0,,
+2026-11-03T13:22:57,dgx,full,E,features_bucket_57,1953902,13.2,88.5,,
+2026-11-03T13:23:11,dgx,full,E,features_bucket_58,1951790,13.9,88.3,,
+2026-11-03T13:23:23,dgx,full,E,features_bucket_59,1955228,12.3,88.5,,
+2026-11-03T13:23:37,dgx,full,E,features_bucket_6,1931693,13.8,87.4,,
+2026-11-03T13:23:48,dgx,full,E,features_bucket_60,1957672,11.0,88.6,,
+2026-11-03T13:24:01,dgx,full,E,features_bucket_61,1976769,13.1,89.4,,
+2026-11-03T13:24:12,dgx,full,E,features_bucket_62,1986050,10.7,89.8,,
+2026-11-03T13:24:23,dgx,full,E,features_bucket_63,1994011,10.9,90.2,,
+2026-11-03T13:24:37,dgx,full,E,features_bucket_7,1939711,13.9,87.8,,
+2026-11-03T13:24:51,dgx,full,E,features_bucket_8,1949894,14.2,88.2,,
+2026-11-03T13:25:02,dgx,full,E,features_bucket_9,1961729,11.7,88.8,,
+2026-11-03T14:01:53,dgx,full,E,train_random_forest,3047673,2141.2,,,
+2026-11-03T14:16:25,dgx,full,E,train_gbt,3047673,871.9,,,
+2026-11-03T14:16:51,dgx,full,F,case_study,427,15.1,,,
+2026-11-03T14:17:07,dgx,full,G,export_daily_cat,12194983,5.4,62.9,,
+2026-11-03T14:17:11,dgx,full,G,export_yearly,44,3.7,,,
+2026-11-03T14:17:41,dgx,full,G,export_risk,1646631,30.3,,,
+2026-11-04T11:06:34,dgx,full,download,oisst_1984,31622400,152.4,40.2,,"{'time': 366, 'lon': 360, 'lat': 240}"
+2026-11-04T11:11:45,dgx,full,download,oisst_1985,31536000,310.2,39.7,,"{'time': 365, 'lon': 360, 'lat': 240}"
+2026-11-04T11:14:12,dgx,full,download,oisst_1986,31536000,147.3,39.7,,"{'time': 365, 'lon': 360, 'lat': 240}"
+2026-11-04T11:16:42,dgx,full,download,oisst_1989,31536000,150.2,39.8,,"{'time': 365, 'lon': 360, 'lat': 240}"
+2026-11-04T11:19:32,dgx,full,download,oisst_1992,31622400,169.8,39.6,,"{'time': 366, 'lon': 360, 'lat': 240}"
+2026-11-04T11:21:58,dgx,full,download,oisst_1994,31536000,146.6,39.4,,"{'time': 365, 'lon': 360, 'lat': 240}"
+2026-11-04T11:25:01,dgx,full,download,oisst_2002,31536000,182.5,39.7,,"{'time': 365, 'lon': 360, 'lat': 240}"
+2026-11-04T11:27:31,dgx,full,download,oisst_2011,31536000,149.9,38.9,,"{'time': 365, 'lon': 360, 'lat': 240}"
+2026-11-04T11:29:58,dgx,full,download,oisst_2015,31536000,147.0,38.9,,"{'time': 365, 'lon': 360, 'lat': 240}"
+2026-11-04T11:32:41,dgx,full,download,oisst_2016,31622400,163.5,39.1,,"{'time': 366, 'lat': 240, 'lon': 360}"
+2026-11-04T11:35:12,dgx,full,download,oisst_2024,31622400,150.7,37.2,,"{'time': 366, 'lat': 240, 'lon': 360}"
+2026-11-04T11:36:07,dgx,full,A,ingest_1982,21291910,12.5,79.5,,"365 days, 58334 cells"
+2026-11-04T11:36:12,dgx,full,A,append_by_cell_1982,,4.9,37.3,64,
+2026-11-04T11:36:25,dgx,full,A,ingest_1983,21291910,12.2,79.6,,"365 days, 58334 cells"
+2026-11-04T11:36:26,dgx,full,A,append_by_cell_1983,,1.6,74.6,64,
+2026-11-04T11:36:38,dgx,full,A,ingest_1984,21350244,11.4,79.9,,"366 days, 58334 cells"
+2026-11-04T11:36:39,dgx,full,A,append_by_cell_1984,,1.7,111.9,64,
+2026-11-04T11:36:52,dgx,full,A,ingest_1985,21291910,12.5,79.5,,"365 days, 58334 cells"
+2026-11-04T11:36:54,dgx,full,A,append_by_cell_1985,,1.9,149.2,64,
+2026-11-04T11:37:06,dgx,full,A,ingest_1986,21291910,12.4,79.5,,"365 days, 58334 cells"
+2026-11-04T11:37:08,dgx,full,A,append_by_cell_1986,,1.9,186.5,64,
+2026-11-04T11:37:20,dgx,full,A,ingest_1987,21291910,12.2,79.5,,"365 days, 58334 cells"
+2026-11-04T11:37:23,dgx,full,A,append_by_cell_1987,,3.1,223.7,64,
+2026-11-04T11:37:35,dgx,full,A,ingest_1988,21350244,11.6,79.7,,"366 days, 58334 cells"
+2026-11-04T11:37:37,dgx,full,A,append_by_cell_1988,,1.7,261.1,64,
+2026-11-04T11:37:49,dgx,full,A,ingest_1989,21291910,12.7,79.5,,"365 days, 58334 cells"
+2026-11-04T11:37:51,dgx,full,A,append_by_cell_1989,,1.5,298.4,64,
+2026-11-04T11:38:03,dgx,full,A,ingest_1990,21291910,12.0,79.5,,"365 days, 58334 cells"
+2026-11-04T11:38:04,dgx,full,A,append_by_cell_1990,,1.6,335.7,64,
+2026-11-04T11:38:16,dgx,full,A,ingest_1991,21291910,12.0,79.5,,"365 days, 58334 cells"
+2026-11-04T11:38:18,dgx,full,A,append_by_cell_1991,,1.7,372.9,64,
+2026-11-04T11:38:29,dgx,full,A,ingest_1992,21350244,11.3,79.7,,"366 days, 58334 cells"
+2026-11-04T11:38:31,dgx,full,A,append_by_cell_1992,,1.6,410.2,64,
+2026-11-04T11:38:43,dgx,full,A,ingest_1993,21291910,12.3,79.5,,"365 days, 58334 cells"
+2026-11-04T11:38:45,dgx,full,A,append_by_cell_1993,,1.8,447.5,64,
+2026-11-04T11:38:57,dgx,full,A,ingest_1994,21291910,12.0,79.4,,"365 days, 58334 cells"
+2026-11-04T11:38:59,dgx,full,A,append_by_cell_1994,,2.2,484.8,64,
+2026-11-04T11:39:12,dgx,full,A,ingest_1995,21291910,12.9,79.5,,"365 days, 58334 cells"
+2026-11-04T11:39:14,dgx,full,A,append_by_cell_1995,,1.8,521.9,64,
+2026-11-04T11:39:26,dgx,full,A,ingest_1996,21350244,11.8,79.9,,"366 days, 58334 cells"
+2026-11-04T11:39:28,dgx,full,A,append_by_cell_1996,,1.7,559.3,64,
+2026-11-04T11:39:40,dgx,full,A,ingest_1997,21291910,12.2,79.5,,"365 days, 58334 cells"
+2026-11-04T11:39:41,dgx,full,A,append_by_cell_1997,,1.4,596.6,64,
+2026-11-04T11:39:53,dgx,full,A,ingest_1998,21291910,12.0,79.5,,"365 days, 58334 cells"
+2026-11-04T11:39:55,dgx,full,A,append_by_cell_1998,,1.7,633.9,64,
+2026-11-04T11:40:07,dgx,full,A,ingest_1999,21291910,11.9,79.6,,"365 days, 58334 cells"
+2026-11-04T11:40:09,dgx,full,A,append_by_cell_1999,,1.8,671.1,64,
+2026-11-04T11:40:20,dgx,full,A,ingest_2000,21350244,11.5,79.7,,"366 days, 58334 cells"
+2026-11-04T11:40:22,dgx,full,A,append_by_cell_2000,,1.7,708.5,64,
+2026-11-04T11:40:34,dgx,full,A,ingest_2001,21291910,12.1,79.5,,"365 days, 58334 cells"
+2026-11-04T11:40:35,dgx,full,A,append_by_cell_2001,,1.3,745.7,64,
+2026-11-04T11:40:47,dgx,full,A,ingest_2002,21291910,12.1,79.5,,"365 days, 58334 cells"
+2026-11-04T11:40:49,dgx,full,A,append_by_cell_2002,,1.6,783.0,64,
+2026-11-04T11:41:01,dgx,full,A,ingest_2003,21291910,11.9,79.5,,"365 days, 58334 cells"
+2026-11-04T11:41:03,dgx,full,A,append_by_cell_2003,,1.6,820.3,64,
+2026-11-04T11:41:14,dgx,full,A,ingest_2004,21350244,11.6,79.7,,"366 days, 58334 cells"
+2026-11-04T11:41:16,dgx,full,A,append_by_cell_2004,,1.7,857.6,64,
+2026-11-04T11:41:28,dgx,full,A,ingest_2005,21291910,11.9,79.5,,"365 days, 58334 cells"
+2026-11-04T11:41:29,dgx,full,A,append_by_cell_2005,,1.5,894.9,64,
+2026-11-04T11:41:41,dgx,full,A,ingest_2006,21291910,12.1,79.5,,"365 days, 58334 cells"
+2026-11-04T11:41:43,dgx,full,A,append_by_cell_2006,,1.4,932.2,64,
+2026-11-04T11:41:55,dgx,full,A,ingest_2007,21291910,11.8,79.5,,"365 days, 58334 cells"
+2026-11-04T11:41:56,dgx,full,A,append_by_cell_2007,,1.4,969.5,64,
+2026-11-04T11:42:08,dgx,full,A,ingest_2008,21350244,11.6,79.7,,"366 days, 58334 cells"
+2026-11-04T11:42:09,dgx,full,A,append_by_cell_2008,,1.6,1006.8,64,
+2026-11-04T11:42:21,dgx,full,A,ingest_2009,21291910,11.9,79.5,,"365 days, 58334 cells"
+2026-11-04T11:42:23,dgx,full,A,append_by_cell_2009,,1.4,1044.1,64,
+2026-11-04T11:42:35,dgx,full,A,ingest_2010,21291910,12.0,79.5,,"365 days, 58334 cells"
+2026-11-04T11:42:36,dgx,full,A,append_by_cell_2010,,1.4,1081.3,64,
+2026-11-04T11:42:48,dgx,full,A,ingest_2011,21291910,12.0,79.5,,"365 days, 58334 cells"
+2026-11-04T11:42:49,dgx,full,A,append_by_cell_2011,,1.3,1118.6,64,
+2026-11-04T11:43:01,dgx,full,A,ingest_2012,21350244,11.2,79.7,,"366 days, 58334 cells"
+2026-11-04T11:43:02,dgx,full,A,append_by_cell_2012,,1.7,1155.9,64,
+2026-11-04T11:43:15,dgx,full,A,ingest_2013,21291910,12.3,79.5,,"365 days, 58334 cells"
+2026-11-04T11:43:16,dgx,full,A,append_by_cell_2013,,1.4,1193.2,64,
+2026-11-04T11:43:28,dgx,full,A,ingest_2014,21291910,12.1,79.5,,"365 days, 58334 cells"
+2026-11-04T11:43:30,dgx,full,A,append_by_cell_2014,,1.3,1230.4,64,
+2026-11-04T11:43:42,dgx,full,A,ingest_2015,21291910,12.1,79.5,,"365 days, 58334 cells"
+2026-11-04T11:43:43,dgx,full,A,append_by_cell_2015,,1.4,1267.7,64,
+2026-11-04T11:43:55,dgx,full,A,ingest_2016,21350244,11.5,79.7,,"366 days, 58334 cells"
+2026-11-04T11:43:56,dgx,full,A,append_by_cell_2016,,1.5,1305.0,64,
+2026-11-04T11:44:09,dgx,full,A,ingest_2017,21291910,12.4,79.5,,"365 days, 58334 cells"
+2026-11-04T11:44:10,dgx,full,A,append_by_cell_2017,,1.3,1342.3,64,
+2026-11-04T11:44:22,dgx,full,A,ingest_2018,21291910,12.3,79.5,,"365 days, 58334 cells"
+2026-11-04T11:44:24,dgx,full,A,append_by_cell_2018,,1.3,1379.5,64,
+2026-11-04T11:44:36,dgx,full,A,ingest_2019,21291910,12.1,79.5,,"365 days, 58334 cells"
+2026-11-04T11:44:37,dgx,full,A,append_by_cell_2019,,1.4,1416.8,64,
+2026-11-04T11:44:49,dgx,full,A,ingest_2020,21350244,12.0,79.7,,"366 days, 58334 cells"
+2026-11-04T11:44:50,dgx,full,A,append_by_cell_2020,,1.4,1454.1,64,
+2026-11-04T11:45:03,dgx,full,A,ingest_2021,21291910,12.2,79.5,,"365 days, 58334 cells"
+2026-11-04T11:45:04,dgx,full,A,append_by_cell_2021,,1.4,1491.4,64,
+2026-11-04T11:45:17,dgx,full,A,ingest_2022,21291910,12.4,79.5,,"365 days, 58334 cells"
+2026-11-04T11:45:18,dgx,full,A,append_by_cell_2022,,1.4,1528.6,64,
+2026-11-04T11:45:30,dgx,full,A,ingest_2023,21291910,12.1,79.5,,"365 days, 58334 cells"
+2026-11-04T11:45:32,dgx,full,A,append_by_cell_2023,,1.4,1565.9,64,
+2026-11-04T11:45:43,dgx,full,A,ingest_2024,21350244,11.9,79.7,,"366 days, 58334 cells"
+2026-11-04T11:45:45,dgx,full,A,append_by_cell_2024,,1.4,1603.2,64,
+2026-11-04T11:45:57,dgx,full,A,ingest_2025,21291910,12.2,79.5,,"365 days, 58334 cells"
+2026-11-04T11:45:58,dgx,full,A,append_by_cell_2025,,1.3,1640.4,64,
+2026-11-04T11:46:47,dgx,full,A,lake_check,937485714,48.4,,,duplicates=0 nulls=0
+2026-11-04T11:46:57,dgx,full,A,cells,58334,10.5,2.5,,
+2026-11-04T11:47:15,dgx,full,B,detect_bucket_0,13949628,8.1,208.4,,
+2026-11-04T11:47:18,dgx,full,B,detect_bucket_1,14110338,3.3,210.9,,
+2026-11-04T11:47:22,dgx,full,B,detect_bucket_2,14367474,3.5,215.0,,
+2026-11-04T11:47:25,dgx,full,B,detect_bucket_3,14528184,3.1,217.6,,
+2026-11-04T11:47:28,dgx,full,B,detect_bucket_4,14463900,3.0,216.3,,
+2026-11-04T11:47:31,dgx,full,B,detect_bucket_5,14447829,3.2,216.3,,
+2026-11-04T11:47:35,dgx,full,B,detect_bucket_6,14512113,3.5,217.2,,
+2026-11-04T11:47:38,dgx,full,B,detect_bucket_7,14576397,3.2,218.2,,
+2026-11-04T11:47:41,dgx,full,B,detect_bucket_8,14656752,2.8,219.6,,
+2026-11-04T11:47:44,dgx,full,B,detect_bucket_9,14753178,3.2,220.9,,
+2026-11-04T11:47:48,dgx,full,B,detect_bucket_10,14737107,3.6,220.7,,
+2026-11-04T11:47:51,dgx,full,B,detect_bucket_11,14608539,3.7,218.8,,
+2026-11-04T11:47:55,dgx,full,B,detect_bucket_12,14608539,3.9,218.6,,
+2026-11-04T11:47:58,dgx,full,B,detect_bucket_13,14704965,2.8,220.2,,
+2026-11-04T11:48:01,dgx,full,B,detect_bucket_14,14817462,3.0,222.0,,
+2026-11-04T11:48:04,dgx,full,B,detect_bucket_15,14865675,2.8,222.6,,
+2026-11-04T11:48:07,dgx,full,B,detect_bucket_16,14801391,2.9,221.7,,
+2026-11-04T11:48:10,dgx,full,B,detect_bucket_17,14769249,3.2,221.3,,
+2026-11-04T11:48:13,dgx,full,B,detect_bucket_18,14704965,2.9,220.2,,
+2026-11-04T11:48:15,dgx,full,B,detect_bucket_19,14560326,2.9,217.8,,
+2026-11-04T11:48:18,dgx,full,B,detect_bucket_20,14576397,2.9,218.1,,
+2026-11-04T11:48:21,dgx,full,B,detect_bucket_21,14672823,3.1,219.7,,
+2026-11-04T11:48:24,dgx,full,B,detect_bucket_22,14640681,2.9,219.0,,
+2026-11-04T11:48:27,dgx,full,B,detect_bucket_23,14737107,3.1,220.8,,
+2026-11-04T11:48:31,dgx,full,B,detect_bucket_24,14721036,3.3,220.6,,
+2026-11-04T11:48:34,dgx,full,B,detect_bucket_25,14656752,3.1,219.4,,
+2026-11-04T11:48:37,dgx,full,B,detect_bucket_26,14688894,2.8,220.1,,
+2026-11-04T11:48:39,dgx,full,B,detect_bucket_27,14721036,2.7,220.4,,
+2026-11-04T11:48:42,dgx,full,B,detect_bucket_28,14833533,2.9,222.3,,
+2026-11-04T11:48:45,dgx,full,B,detect_bucket_29,14833533,2.9,222.2,,
+2026-11-04T11:48:48,dgx,full,B,detect_bucket_30,15026385,2.8,225.3,,
+2026-11-04T11:48:51,dgx,full,B,detect_bucket_31,15138882,2.9,226.9,,
+2026-11-04T11:48:54,dgx,full,B,detect_bucket_32,13821060,2.7,206.5,,
+2026-11-04T11:48:56,dgx,full,B,detect_bucket_33,14078196,2.6,210.6,,
+2026-11-04T11:48:59,dgx,full,B,detect_bucket_34,14367474,2.8,215.0,,
+2026-11-04T11:49:02,dgx,full,B,detect_bucket_35,14479971,2.7,216.7,,
+2026-11-04T11:49:04,dgx,full,B,detect_bucket_36,14512113,2.7,217.2,,
+2026-11-04T11:49:07,dgx,full,B,detect_bucket_37,14431758,2.7,215.9,,
+2026-11-04T11:49:10,dgx,full,B,detect_bucket_38,14528184,2.8,217.4,,
+2026-11-04T11:49:13,dgx,full,B,detect_bucket_39,14672823,2.9,219.6,,
+2026-11-04T11:49:16,dgx,full,B,detect_bucket_40,14640681,3.0,219.2,,
+2026-11-04T11:49:18,dgx,full,B,detect_bucket_41,14688894,2.7,220.2,,
+2026-11-04T11:49:21,dgx,full,B,detect_bucket_42,14721036,2.9,220.3,,
+2026-11-04T11:49:24,dgx,full,B,detect_bucket_43,14656752,2.9,219.5,,
+2026-11-04T11:49:27,dgx,full,B,detect_bucket_44,14624610,3.1,219.0,,
+2026-11-04T11:49:30,dgx,full,B,detect_bucket_45,14624610,2.8,219.0,,
+2026-11-04T11:49:33,dgx,full,B,detect_bucket_46,14865675,3.0,222.7,,
+2026-11-04T11:49:36,dgx,full,B,detect_bucket_47,14801391,3.0,221.6,,
+2026-11-04T11:49:39,dgx,full,B,detect_bucket_48,14737107,2.8,220.7,,
+2026-11-04T11:49:42,dgx,full,B,detect_bucket_49,14753178,2.8,220.9,,
+2026-11-04T11:49:45,dgx,full,B,detect_bucket_50,14721036,2.9,220.5,,
+2026-11-04T11:49:47,dgx,full,B,detect_bucket_51,14624610,2.8,219.0,,
+2026-11-04T11:49:50,dgx,full,B,detect_bucket_52,14656752,2.9,219.5,,
+2026-11-04T11:49:53,dgx,full,B,detect_bucket_53,14656752,2.8,219.6,,
+2026-11-04T11:49:56,dgx,full,B,detect_bucket_54,14640681,2.8,219.2,,
+2026-11-04T11:49:59,dgx,full,B,detect_bucket_55,14704965,2.9,220.0,,
+2026-11-04T11:50:02,dgx,full,B,detect_bucket_56,14801391,3.1,221.6,,
+2026-11-04T11:50:05,dgx,full,B,detect_bucket_57,14721036,2.8,220.4,,
+2026-11-04T11:50:07,dgx,full,B,detect_bucket_58,14704965,2.7,220.1,,
+2026-11-04T11:50:11,dgx,full,B,detect_bucket_59,14737107,3.1,220.7,,
+2026-11-04T11:50:14,dgx,full,B,detect_bucket_60,14769249,3.0,221.2,,
+2026-11-04T11:50:16,dgx,full,B,detect_bucket_61,14913888,2.9,223.3,,
+2026-11-04T11:50:20,dgx,full,B,detect_bucket_62,14994243,3.1,224.6,,
+2026-11-04T11:50:22,dgx,full,B,detect_bucket_63,15042456,2.9,225.4,,
+2026-11-04T11:50:27,dgx,full,B,summary,937485714,4.2,,,heatwave cell-days=67168808 (7.2%)
+2026-11-04T11:50:51,dgx,full,C,dbscan,66466009,15.3,865.5,,
+2026-11-04T11:51:05,dgx,full,C,footprints,291272,14.2,155.5,,
+2026-11-04T11:51:12,dgx,full,C,link,322279,7.3,,,291272 footprints
+2026-11-04T11:52:39,dgx,full,C,catalogue,14472,86.9,,,
+2026-11-04T11:53:18,dgx,full,D,kmeans,14472,14.4,,,best k=3 silhouette=0.262
+2026-11-04T11:53:20,dgx,full,D,fpgrowth,59,2.0,,,
+2026-11-04T11:55:00,dgx,full,E,neighbour_features,937485714,91.8,4456.0,,
+2026-11-04T11:55:12,dgx,full,E,features_bucket_0,1846570,11.9,83.5,,
+2026-11-04T11:55:20,dgx,full,E,features_bucket_1,1867442,7.8,84.4,,
+2026-11-04T11:55:29,dgx,full,E,features_bucket_10,1952833,8.5,88.3,,
+2026-11-04T11:55:36,dgx,full,E,features_bucket_11,1934387,7.2,87.5,,
+2026-11-04T11:55:43,dgx,full,E,features_bucket_12,1932960,6.7,87.4,,
+2026-11-04T11:55:50,dgx,full,E,features_bucket_13,1947149,7.0,88.1,,
+2026-11-04T11:55:57,dgx,full,E,features_bucket_14,1961913,7.3,88.7,,
+2026-11-04T11:56:04,dgx,full,E,features_bucket_15,1968614,7.5,89.0,,
+2026-11-04T11:56:11,dgx,full,E,features_bucket_16,1958778,6.7,88.6,,
+2026-11-04T11:56:17,dgx,full,E,features_bucket_17,1954845,5.9,88.4,,
+2026-11-04T11:56:23,dgx,full,E,features_bucket_18,1947159,6.2,88.0,,
+2026-11-04T11:56:31,dgx,full,E,features_bucket_19,1927905,7.7,87.1,,
+2026-11-04T11:56:39,dgx,full,E,features_bucket_2,1901711,7.9,86.0,,
+2026-11-04T11:56:49,dgx,full,E,features_bucket_20,1930198,10.3,87.3,,
+2026-11-04T11:57:00,dgx,full,E,features_bucket_21,1945149,10.2,87.9,,
+2026-11-04T11:57:06,dgx,full,E,features_bucket_22,1941018,6.8,87.8,,
+2026-11-04T11:57:15,dgx,full,E,features_bucket_23,1953590,8.2,88.3,,
+2026-11-04T11:57:22,dgx,full,E,features_bucket_24,1951514,7.1,88.2,,
+2026-11-04T11:57:29,dgx,full,E,features_bucket_25,1941224,7.3,87.8,,
+2026-11-04T11:57:36,dgx,full,E,features_bucket_26,1944639,6.6,87.9,,
+2026-11-04T11:57:43,dgx,full,E,features_bucket_27,1946769,7.2,88.1,,
+2026-11-04T11:57:51,dgx,full,E,features_bucket_28,1960649,7.9,88.7,,
+2026-11-04T11:57:58,dgx,full,E,features_bucket_29,1962005,7.5,88.7,,
+2026-11-04T11:58:06,dgx,full,E,features_bucket_3,1926808,7.5,87.1,,
+2026-11-04T11:58:13,dgx,full,E,features_bucket_30,1985971,7.5,89.8,,
+2026-11-04T11:58:20,dgx,full,E,features_bucket_31,2003193,7.1,90.6,,
+2026-11-04T11:58:28,dgx,full,E,features_bucket_32,1828090,8.0,82.7,,
+2026-11-04T11:58:36,dgx,full,E,features_bucket_33,1863141,8.0,84.2,,
+2026-11-04T11:58:43,dgx,full,E,features_bucket_34,1901778,6.3,86.0,,
+2026-11-04T11:58:51,dgx,full,E,features_bucket_35,1920488,8.6,86.9,,
+2026-11-04T11:59:02,dgx,full,E,features_bucket_36,1928370,10.5,87.2,,
+2026-11-04T11:59:09,dgx,full,E,features_bucket_37,1917550,7.2,86.7,,
+2026-11-04T11:59:16,dgx,full,E,features_bucket_38,1930292,7.2,87.3,,
+2026-11-04T11:59:25,dgx,full,E,features_bucket_39,1949148,9.0,88.1,,
+2026-11-04T11:59:33,dgx,full,E,features_bucket_4,1920502,8.0,86.8,,
+2026-11-04T11:59:41,dgx,full,E,features_bucket_40,1943863,8.1,87.9,,
+2026-11-04T11:59:48,dgx,full,E,features_bucket_41,1948193,6.1,88.1,,
+2026-11-04T11:59:55,dgx,full,E,features_bucket_42,1950175,7.1,88.2,,
+2026-11-04T12:00:01,dgx,full,E,features_bucket_43,1941179,6.6,87.8,,
+2026-11-04T12:00:08,dgx,full,E,features_bucket_44,1936329,7.2,87.6,,
+2026-11-04T12:00:16,dgx,full,E,features_bucket_45,1936078,7.6,87.6,,
+2026-11-04T12:00:24,dgx,full,E,features_bucket_46,1968156,7.8,89.0,,
+2026-11-04T12:00:33,dgx,full,E,features_bucket_47,1959076,9.2,88.6,,
+2026-11-04T12:00:40,dgx,full,E,features_bucket_48,1950620,7.2,88.2,,
+2026-11-04T12:00:46,dgx,full,E,features_bucket_49,1953276,6.3,88.3,,
+2026-11-04T12:00:54,dgx,full,E,features_bucket_5,1919615,7.2,86.8,,
+2026-11-04T12:01:01,dgx,full,E,features_bucket_50,1949214,7.0,88.1,,
+2026-11-04T12:01:07,dgx,full,E,features_bucket_51,1936195,6.7,87.5,,
+2026-11-04T12:01:15,dgx,full,E,features_bucket_52,1941968,7.1,87.8,,
+2026-11-04T12:01:23,dgx,full,E,features_bucket_53,1942295,8.4,87.8,,
+2026-11-04T12:01:33,dgx,full,E,features_bucket_54,1940628,9.9,87.7,,
+2026-11-04T12:01:42,dgx,full,E,features_bucket_55,1949870,9.0,88.2,,
+2026-11-04T12:01:51,dgx,full,E,features_bucket_56,1962822,8.8,88.8,,
+2026-11-04T12:01:58,dgx,full,E,features_bucket_57,1949238,7.4,88.2,,
+2026-11-04T12:02:06,dgx,full,E,features_bucket_58,1947066,7.9,88.1,,
+2026-11-04T12:02:13,dgx,full,E,features_bucket_59,1950337,7.3,88.2,,
+2026-11-04T12:02:21,dgx,full,E,features_bucket_6,1926605,7.2,87.1,,
+2026-11-04T12:02:30,dgx,full,E,features_bucket_60,1952847,9.0,88.3,,
+2026-11-04T12:02:38,dgx,full,E,features_bucket_61,1971986,8.8,89.2,,
+2026-11-04T12:02:45,dgx,full,E,features_bucket_62,1980911,6.5,89.6,,
+2026-11-04T12:02:54,dgx,full,E,features_bucket_63,1988235,8.8,89.9,,
+2026-11-04T12:03:02,dgx,full,E,features_bucket_7,1934689,7.7,87.5,,
+2026-11-04T12:03:08,dgx,full,E,features_bucket_8,1944923,6.7,87.9,,
+2026-11-04T12:03:17,dgx,full,E,features_bucket_9,1956581,8.7,88.5,,
+2026-11-04T12:42:34,dgx,full,E,train_random_forest,3023060,2288.5,,,
+2026-11-04T12:58:15,dgx,full,E,train_gbt,3023060,940.4,,,
+2026-11-04T12:58:42,dgx,full,F,case_study,427,15.9,,,
+2026-11-04T12:58:58,dgx,full,G,export_daily_cat,12366552,4.8,63.8,,
+2026-11-04T12:59:02,dgx,full,G,export_yearly,44,3.4,,,
+2026-11-04T12:59:40,dgx,full,G,export_risk,1647559,37.9,,,
+2026-11-09T15:54:36,dgx,full,E,cell_features_bucket_0,13949628,8.7,582.9,,
+2026-11-09T15:54:39,dgx,full,E,cell_features_bucket_1,14110338,3.2,589.6,,
+2026-11-09T15:54:42,dgx,full,E,cell_features_bucket_10,14737107,3.1,616.9,,
+2026-11-09T15:54:46,dgx,full,E,cell_features_bucket_11,14608539,3.0,610.6,,
+2026-11-09T15:54:49,dgx,full,E,cell_features_bucket_12,14608539,3.5,610.9,,
+2026-11-09T15:54:53,dgx,full,E,cell_features_bucket_13,14704965,4.0,615.2,,
+2026-11-09T15:54:58,dgx,full,E,cell_features_bucket_14,14817462,4.6,620.1,,
+2026-11-09T15:55:01,dgx,full,E,cell_features_bucket_15,14865675,3.8,622.3,,
+2026-11-09T15:55:04,dgx,full,E,cell_features_bucket_16,14801391,3.0,619.5,,
+2026-11-09T15:55:08,dgx,full,E,cell_features_bucket_17,14769249,3.6,617.9,,
+2026-11-09T15:55:11,dgx,full,E,cell_features_bucket_18,14704965,2.9,614.7,,
+2026-11-09T15:55:14,dgx,full,E,cell_features_bucket_19,14560326,3.0,608.9,,
+2026-11-09T15:55:17,dgx,full,E,cell_features_bucket_2,14367474,2.8,600.6,,
+2026-11-09T15:55:20,dgx,full,E,cell_features_bucket_20,14576397,2.8,609.5,,
+2026-11-09T15:55:22,dgx,full,E,cell_features_bucket_21,14672823,3.0,614.0,,
+2026-11-09T15:55:25,dgx,full,E,cell_features_bucket_22,14640681,2.9,612.1,,
+2026-11-09T15:55:28,dgx,full,E,cell_features_bucket_23,14737107,2.7,616.7,,
+2026-11-09T15:55:31,dgx,full,E,cell_features_bucket_24,14721036,3.2,615.6,,
+2026-11-09T15:55:35,dgx,full,E,cell_features_bucket_25,14656752,3.7,612.8,,
+2026-11-09T15:55:38,dgx,full,E,cell_features_bucket_26,14688894,2.9,614.6,,
+2026-11-09T15:55:41,dgx,full,E,cell_features_bucket_27,14721036,2.9,615.7,,
+2026-11-09T15:55:44,dgx,full,E,cell_features_bucket_28,14833533,3.1,620.5,,
+2026-11-09T15:55:47,dgx,full,E,cell_features_bucket_29,14833533,2.9,620.5,,
+2026-11-09T15:55:50,dgx,full,E,cell_features_bucket_3,14528184,2.8,607.6,,
+2026-11-09T15:55:53,dgx,full,E,cell_features_bucket_30,15026385,3.0,628.9,,
+2026-11-09T15:55:55,dgx,full,E,cell_features_bucket_31,15138882,2.9,633.7,,
+2026-11-09T15:55:58,dgx,full,E,cell_features_bucket_32,13821060,2.8,577.5,,
+2026-11-09T15:56:01,dgx,full,E,cell_features_bucket_33,14078196,2.8,588.4,,
+2026-11-09T15:56:04,dgx,full,E,cell_features_bucket_34,14367474,3.3,600.6,,
+2026-11-09T15:56:08,dgx,full,E,cell_features_bucket_35,14479971,3.5,605.1,,
+2026-11-09T15:56:11,dgx,full,E,cell_features_bucket_36,14512113,3.3,607.0,,
+2026-11-09T15:56:14,dgx,full,E,cell_features_bucket_37,14431758,3.1,603.4,,
+2026-11-09T15:56:17,dgx,full,E,cell_features_bucket_38,14528184,3.0,607.7,,
+2026-11-09T15:56:20,dgx,full,E,cell_features_bucket_39,14672823,3.1,613.7,,
+2026-11-09T15:56:24,dgx,full,E,cell_features_bucket_4,14463900,3.5,604.7,,
+2026-11-09T15:56:27,dgx,full,E,cell_features_bucket_40,14640681,3.0,612.5,,
+2026-11-09T15:56:30,dgx,full,E,cell_features_bucket_41,14688894,3.0,614.7,,
+2026-11-09T15:56:33,dgx,full,E,cell_features_bucket_42,14721036,2.7,615.8,,
+2026-11-09T15:56:35,dgx,full,E,cell_features_bucket_43,14656752,2.7,612.7,,
+2026-11-09T15:56:38,dgx,full,E,cell_features_bucket_44,14624610,2.7,611.7,,
+2026-11-09T15:56:41,dgx,full,E,cell_features_bucket_45,14624610,2.6,611.7,,
+2026-11-09T15:56:43,dgx,full,E,cell_features_bucket_46,14865675,2.7,622.1,,
+2026-11-09T15:56:47,dgx,full,E,cell_features_bucket_47,14801391,3.6,619.2,,
+2026-11-09T15:56:50,dgx,full,E,cell_features_bucket_48,14737107,2.9,616.3,,
+2026-11-09T15:56:52,dgx,full,E,cell_features_bucket_49,14753178,2.5,617.0,,
+2026-11-09T15:56:55,dgx,full,E,cell_features_bucket_5,14447829,2.5,604.4,,
+2026-11-09T15:56:58,dgx,full,E,cell_features_bucket_50,14721036,2.7,615.6,,
+2026-11-09T15:57:00,dgx,full,E,cell_features_bucket_51,14624610,2.7,611.6,,
+2026-11-09T15:57:03,dgx,full,E,cell_features_bucket_52,14656752,2.7,613.0,,
+2026-11-09T15:57:07,dgx,full,E,cell_features_bucket_53,14656752,3.6,613.0,,
+2026-11-09T15:57:10,dgx,full,E,cell_features_bucket_54,14640681,3.5,612.4,,
+2026-11-09T15:57:13,dgx,full,E,cell_features_bucket_55,14704965,2.8,614.9,,
+2026-11-09T15:57:15,dgx,full,E,cell_features_bucket_56,14801391,2.6,619.4,,
+2026-11-09T15:57:18,dgx,full,E,cell_features_bucket_57,14721036,2.6,615.7,,
+2026-11-09T15:57:21,dgx,full,E,cell_features_bucket_58,14704965,3.2,615.3,,
+2026-11-09T15:57:24,dgx,full,E,cell_features_bucket_59,14737107,2.6,616.4,,
+2026-11-09T15:57:27,dgx,full,E,cell_features_bucket_6,14512113,2.6,607.1,,
+2026-11-09T15:57:30,dgx,full,E,cell_features_bucket_60,14769249,3.9,618.0,,
+2026-11-09T15:57:33,dgx,full,E,cell_features_bucket_61,14913888,2.9,623.9,,
+2026-11-09T15:57:36,dgx,full,E,cell_features_bucket_62,14994243,3.1,627.5,,
+2026-11-09T15:57:39,dgx,full,E,cell_features_bucket_63,15042456,2.5,629.6,,
+2026-11-09T15:57:42,dgx,full,E,cell_features_bucket_7,14576397,2.6,609.7,,
+2026-11-09T15:57:44,dgx,full,E,cell_features_bucket_8,14656752,2.5,613.1,,
+2026-11-09T15:57:47,dgx,full,E,cell_features_bucket_9,14753178,2.5,617.4,,
+2026-11-09T15:59:22,dgx,full,E,nb_features,937485714,95.0,19545.5,,
+2026-11-09T15:59:40,dgx,full,E,training_bucket_0,552375,17.3,39.2,,
+2026-11-09T15:59:48,dgx,full,E,training_bucket_1,558761,8.2,39.7,,
+2026-11-09T15:59:55,dgx,full,E,training_bucket_10,584598,6.4,41.5,,
+2026-11-09T16:00:01,dgx,full,E,training_bucket_11,579658,6.2,41.2,,
+2026-11-09T16:00:06,dgx,full,E,training_bucket_12,578788,5.4,41.1,,
+2026-11-09T16:00:13,dgx,full,E,training_bucket_13,582406,6.7,41.3,,
+2026-11-09T16:00:21,dgx,full,E,training_bucket_14,587907,8.1,41.7,,
+2026-11-09T16:00:30,dgx,full,E,training_bucket_15,589200,8.5,41.8,,
+2026-11-09T16:00:36,dgx,full,E,training_bucket_16,586480,6.7,41.6,,
+2026-11-09T16:00:43,dgx,full,E,training_bucket_17,585580,6.3,41.5,,
+2026-11-09T16:00:49,dgx,full,E,training_bucket_18,583060,6.4,41.4,,
+2026-11-09T16:00:56,dgx,full,E,training_bucket_19,577731,7.0,41.1,,
+2026-11-09T16:01:01,dgx,full,E,training_bucket_2,569084,5.0,40.4,,
+2026-11-09T16:01:08,dgx,full,E,training_bucket_20,577629,6.6,41.0,,
+2026-11-09T16:01:14,dgx,full,E,training_bucket_21,582701,6.4,41.3,,
+2026-11-09T16:01:20,dgx,full,E,training_bucket_22,581287,6.1,41.3,,
+2026-11-09T16:01:26,dgx,full,E,training_bucket_23,585337,5.6,41.5,,
+2026-11-09T16:01:32,dgx,full,E,training_bucket_24,584242,6.2,41.4,,
+2026-11-09T16:01:37,dgx,full,E,training_bucket_25,582475,5.2,41.3,,
+2026-11-09T16:01:43,dgx,full,E,training_bucket_26,582806,6.1,41.4,,
+2026-11-09T16:01:49,dgx,full,E,training_bucket_27,583929,5.9,41.5,,
+2026-11-09T16:01:55,dgx,full,E,training_bucket_28,588540,6.5,41.8,,
+2026-11-09T16:02:02,dgx,full,E,training_bucket_29,588126,6.4,41.9,,
+2026-11-09T16:02:07,dgx,full,E,training_bucket_3,576148,5.2,40.9,,
+2026-11-09T16:02:13,dgx,full,E,training_bucket_30,595895,5.9,42.4,,
+2026-11-09T16:02:20,dgx,full,E,training_bucket_31,601386,7.1,42.8,,
+2026-11-09T16:02:26,dgx,full,E,training_bucket_32,547458,5.7,38.9,,
+2026-11-09T16:02:33,dgx,full,E,training_bucket_33,558876,7.2,39.7,,
+2026-11-09T16:02:40,dgx,full,E,training_bucket_34,570397,6.8,40.5,,
+2026-11-09T16:02:48,dgx,full,E,training_bucket_35,575705,8.7,40.9,,
+2026-11-09T16:02:56,dgx,full,E,training_bucket_36,577299,7.4,41.0,,
+2026-11-09T16:03:03,dgx,full,E,training_bucket_37,574798,7.5,40.8,,
+2026-11-09T16:03:12,dgx,full,E,training_bucket_38,577999,9.0,41.1,,
+2026-11-09T16:03:19,dgx,full,E,training_bucket_39,583674,6.2,41.5,,
+2026-11-09T16:03:27,dgx,full,E,training_bucket_4,574468,8.4,40.8,,
+2026-11-09T16:03:33,dgx,full,E,training_bucket_40,581927,5.6,41.4,,
+2026-11-09T16:03:39,dgx,full,E,training_bucket_41,583577,6.3,41.5,,
+2026-11-09T16:03:49,dgx,full,E,training_bucket_42,584120,10.1,41.5,,
+2026-11-09T16:03:54,dgx,full,E,training_bucket_43,581659,5.5,41.3,,
+2026-11-09T16:04:01,dgx,full,E,training_bucket_44,580374,6.3,41.2,,
+2026-11-09T16:04:07,dgx,full,E,training_bucket_45,580111,6.1,41.2,,
+2026-11-09T16:04:14,dgx,full,E,training_bucket_46,589536,6.7,41.8,,
+2026-11-09T16:04:20,dgx,full,E,training_bucket_47,586801,6.3,41.6,,
+2026-11-09T16:04:26,dgx,full,E,training_bucket_48,584039,6.3,41.5,,
+2026-11-09T16:04:32,dgx,full,E,training_bucket_49,585252,5.9,41.5,,
+2026-11-09T16:04:38,dgx,full,E,training_bucket_5,573962,6.2,40.8,,
+2026-11-09T16:04:44,dgx,full,E,training_bucket_50,583805,5.9,41.4,,
+2026-11-09T16:04:50,dgx,full,E,training_bucket_51,579884,5.6,41.2,,
+2026-11-09T16:04:57,dgx,full,E,training_bucket_52,582340,6.7,41.4,,
+2026-11-09T16:05:03,dgx,full,E,training_bucket_53,581863,6.3,41.3,,
+2026-11-09T16:05:09,dgx,full,E,training_bucket_54,580906,6.0,41.3,,
+2026-11-09T16:05:15,dgx,full,E,training_bucket_55,584310,6.3,41.5,,
+2026-11-09T16:05:22,dgx,full,E,training_bucket_56,589042,6.7,41.8,,
+2026-11-09T16:05:28,dgx,full,E,training_bucket_57,585297,6.1,41.5,,
+2026-11-09T16:05:34,dgx,full,E,training_bucket_58,584092,6.3,41.5,,
+2026-11-09T16:05:41,dgx,full,E,training_bucket_59,585371,7.0,41.6,,
+2026-11-09T16:05:48,dgx,full,E,training_bucket_6,576188,6.6,41.0,,
+2026-11-09T16:05:58,dgx,full,E,training_bucket_60,586299,10.0,41.7,,
+2026-11-09T16:06:08,dgx,full,E,training_bucket_61,591783,9.5,42.1,,
+2026-11-09T16:06:14,dgx,full,E,training_bucket_62,594705,6.5,42.3,,
+2026-11-09T16:06:21,dgx,full,E,training_bucket_63,596492,6.7,42.4,,
+2026-11-09T16:06:27,dgx,full,E,training_bucket_7,579000,5.9,41.2,,
+2026-11-09T16:06:33,dgx,full,E,training_bucket_8,582721,6.8,41.4,,
+2026-11-09T16:06:40,dgx,full,E,training_bucket_9,585154,6.4,41.6,,
+2026-11-09T16:24:29,dgx,full,E,train_gbt,5126728,1027.1,,,
+2026-11-09T16:30:39,dgx,full,E,train_random_forest,3570856,370.0,,,
+2026-11-09T18:12:34,dgx,full,E,trust_bootstrap,6418521,23.7,,,
+2026-11-09T18:13:14,dgx,full,E,trust_lead_times,30806,38.6,,,
+2026-11-09T18:14:26,dgx,full,F,case_study,427,12.2,,,
+2026-11-10T16:53:44,dgx,full,G,export_daily_cat,12366552,5.1,63.8,,
+2026-11-10T16:53:48,dgx,full,G,export_yearly,44,3.6,,,
+2026-11-10T16:54:19,dgx,full,G,export_risk,1693720,30.2,,,

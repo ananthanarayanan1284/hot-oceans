@@ -1,0 +1,8 @@
+{
+  "cell_id": 579170,
+  "first_heatwave_day": "2023-05-12",
+  "first_warning_day": "2023-05-07",
+  "lead_days": 5,
+  "threshold": 0.2276822052020354,
+  "model": "gbt"
+}

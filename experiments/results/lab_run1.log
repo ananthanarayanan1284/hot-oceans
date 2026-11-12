@@ -1,0 +1,26 @@
+﻿12:49:00 loading lake
+12:49:08 grid (16071, 40, 60), ocean cells 1971
+12:49:16 rows: fit 1,790,178, val 765,254, test 1,224,618; old-task share 0.925
+12:49:28 current features done
+12:49:40 neighbour features done
+12:49:42 all features done
+12:49:50 saved lab table (3780050, 39)
+12:49:53 persistence (ratio), old rows val 0.203 test 0.243
+12:49:54 persistence (ratio), new rows val 0.534 test 0.588
+12:51:09 E0 current features, hindsight rows val 0.224 test 0.230 f1 0.279 (72.4 s)
+12:52:21 E1 real-time features, hindsight rows val 0.215 test 0.185 f1 0.263 (70.1 s)
+12:53:37 E2 real-time features, operational rows val 0.536 test 0.514 f1 0.482 (74.5 s)
+12:54:44 E3 + run length above threshold val 0.553 test 0.523 f1 0.467 (66.0 s)
+12:55:57 E4 + multi-scale neighbours val 0.556 test 0.553 f1 0.501 (71.8 s)
+12:57:14 E5 + threshold outlook val 0.548 test 0.547 f1 0.500 (75.6 s)
+12:58:37 E6 + regional context val 0.538 test 0.558 f1 0.510 (81.5 s)
+                             experiment task  n_features  val_ap  test_ap  test_rate  test_precision  test_recall  test_f1  iterations  seconds
+          persistence (ratio), old rows  old           1   0.203    0.243      0.111           0.260        0.647    0.370         NaN      NaN
+          persistence (ratio), new rows  new           1   0.534    0.588      0.167           0.568        0.530    0.548         NaN      NaN
+    E0 current features, hindsight rows  old          16   0.224    0.230      0.111           0.254        0.310    0.279       500.0     72.4
+  E1 real-time features, hindsight rows  old          16   0.215    0.185      0.111           0.199        0.388    0.263       500.0     70.1
+E2 real-time features, operational rows  new          16   0.536    0.514      0.167           0.484        0.480    0.482       500.0     74.5
+        E3 + run length above threshold  new          19   0.553    0.523      0.167           0.533        0.416    0.467       500.0     66.0
+            E4 + multi-scale neighbours  new          25   0.556    0.553      0.167           0.530        0.476    0.501       500.0     71.8
+                 E5 + threshold outlook  new          28   0.548    0.547      0.167           0.490        0.510    0.500       500.0     75.6
+                  E6 + regional context  new          32   0.538    0.558      0.167           0.490        0.532    0.510       500.0     81.5

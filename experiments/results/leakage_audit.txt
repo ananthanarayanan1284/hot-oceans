@@ -1,0 +1,19 @@
+﻿checked 6,000 cell-days x 16 inputs
+                   checked  mismatches
+feature                               
+clim_tend_7           6000           0
+confirmed             6000           0
+days_since_exceed     6000           0
+exceed                6000           0
+exceed_days_30        6000           0
+gap_to_thr_ahead      6000           0
+ratio                 6000           0
+ratio_30              6000           0
+ratio_7               6000           0
+ratio_max_7           6000           0
+ratio_trend_3         6000           0
+run_len               6000           0
+thr_tend_7            6000           0
+trend_1               6000           0
+trend_3               6000           0
+trend_7               6000           0

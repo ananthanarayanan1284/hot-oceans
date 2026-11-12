@@ -1,0 +1,80 @@
+{
+  "task": "in a heatwave on any of the next 7 days, for cell-days not in a confirmed heatwave",
+  "features": [
+    "ratio",
+    "ratio_7",
+    "ratio_30",
+    "ratio_trend_3",
+    "trend_1",
+    "trend_3",
+    "trend_7",
+    "run_len",
+    "days_since_exceed",
+    "exceed_days_30",
+    "ratio_max_7",
+    "gap_to_thr_ahead",
+    "thr_tend_7",
+    "clim_tend_7",
+    "nb_ratio",
+    "nb_ratio_7",
+    "nb_ratio_21",
+    "nb_ratio_max_7",
+    "nb_exceed",
+    "nb_exceed_7",
+    "nb_exceed_21",
+    "nb_confirmed",
+    "nb_exceed_trend_3"
+  ],
+  "fit_rows": 3570856,
+  "val_rows": 1555872,
+  "test_rows": 32080685,
+  "test_positive_rate": 0.13944898620462748,
+  "onset_test_rows": 29008595,
+  "onset_test_positive_rate": 0.08387348646151253,
+  "note": "PR-AUC of a random guess equals the positive rate",
+  "persistence_baseline": {
+    "pr_auc_val": 0.5557629410901112,
+    "pr_auc_test": 0.5975584259274126,
+    "pr_auc_onset_test": 0.2601657334175762,
+    "threshold": 0.93111700254469,
+    "precision": 0.5736330981856008,
+    "recall": 0.5463165280726857,
+    "f1": 0.5596416753766771
+  },
+  "gbt": {
+    "pr_auc_val": 0.6065833454075573,
+    "pr_auc_test": 0.6247120236253392,
+    "roc_auc_test": 0.8838059361690651,
+    "pr_auc_onset_test": 0.2762923046104905,
+    "threshold_best_f1_val": 0.2276822052020354,
+    "test_at_threshold": {
+      "threshold": 0.2276822052020354,
+      "precision": 0.5624772708648478,
+      "recall": 0.5676965338353579,
+      "f1": 0.5650748507940315
+    },
+    "trees_used": 227,
+    "pr_auc_spatial_cv_folds": [
+      0.6038582616939753,
+      0.6111775930721957,
+      0.6156871833547949,
+      0.5845337467796554,
+      0.6161555619169523
+    ],
+    "pr_auc_spatial_cv_mean": 0.6062824693635147
+  },
+  "random_forest": {
+    "pr_auc_val": 0.6061700068545164,
+    "pr_auc_test": 0.6250583595807073,
+    "roc_auc_test": 0.8831674874920972,
+    "pr_auc_onset_test": 0.27590982967519395,
+    "threshold_best_f1_val": 0.2031855098758368,
+    "test_at_threshold": {
+      "threshold": 0.2031855098758368,
+      "precision": 0.5556213653924523,
+      "recall": 0.5787562597530098,
+      "f1": 0.56695290200591
+    }
+  },
+  "best_model": "gbt"
+}

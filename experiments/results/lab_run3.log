@@ -1,0 +1,18 @@
+﻿13:18:40 loading lake
+13:18:49 grid (16071, 40, 60), ocean cells 1971
+13:18:52 rows: fit 1,790,178, val 765,254, test 1,224,618; old-task share 0.925
+13:19:01 current features done
+13:19:19 neighbour features done
+13:19:20 all features done
+13:19:26 saved lab table (3780050, 49)
+13:19:28 {'experiment': 'persistence (ratio)', 'val_ap': 0.5344603425663661, 'test_ap': 0.5882416521008145, 'onset_test_ap': 0.2792378001150907, 'onset_test_rate': np.float64(0.10403405676806975)}
+13:20:24 Q1 threshold-relative (R2) {'val_ap': 0.602, 'test_ap': 0.618, 'test_f1': np.float64(0.561), 'test_precision': np.float64(0.533), 'test_recall': np.float64(0.593), 'onset_test_ap': 0.311}
+13:21:29 Q2 + nearby-heatwave features {'val_ap': 0.601, 'test_ap': 0.623, 'test_f1': np.float64(0.564), 'test_precision': np.float64(0.554), 'test_recall': np.float64(0.574), 'onset_test_ap': 0.32}
+13:22:38 Q3 Q2, bigger trees {'val_ap': 0.599, 'test_ap': 0.622, 'test_f1': np.float64(0.562), 'test_precision': np.float64(0.533), 'test_recall': np.float64(0.594), 'onset_test_ap': 0.315}
+13:23:35 Q4 Q2, smaller trees {'val_ap': 0.603, 'test_ap': 0.623, 'test_f1': np.float64(0.564), 'test_precision': np.float64(0.546), 'test_recall': np.float64(0.583), 'onset_test_ap': 0.321}
+                   experiment  val_ap  test_ap  onset_test_ap  onset_test_rate  n_features  test_f1  test_precision  test_recall  iterations
+          persistence (ratio)   0.534    0.588          0.279            0.104         NaN      NaN             NaN          NaN         NaN
+   Q1 threshold-relative (R2)   0.602    0.618          0.311              NaN        19.0    0.561           0.533        0.593       188.0
+Q2 + nearby-heatwave features   0.601    0.623          0.320              NaN        23.0    0.564           0.554        0.574       216.0
+          Q3 Q2, bigger trees   0.599    0.622          0.315              NaN        23.0    0.562           0.533        0.594       206.0
+         Q4 Q2, smaller trees   0.603    0.623          0.321              NaN        23.0    0.564           0.546        0.583       207.0
