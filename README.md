@@ -5,11 +5,8 @@ Spatiotemporal detection, tracking and prediction of marine heatwaves across the
 Course project, Spatial Big Data (Digital University Kerala) · Ananthanarayanan B (253318) · Supervisor: Manoj Kumar
 
 - **Report:** [report/Hot_Oceans_Report_253318_v2.pdf](report/Hot_Oceans_Report_253318_v2.pdf)
-- **Presentation:** [presentation/Hot_Oceans_Presentation_253318.pdf](presentation/Hot_Oceans_Presentation_253318.pdf) ([.pptx](presentation/Hot_Oceans_Presentation_253318.pptx))
 - **Live dashboard:** https://hot-oceans.streamlit.app (or run locally with `streamlit run dashboard/app.py`)
-- **Study notes:** [LESSONS.md](LESSONS.md)
-
-Plans: [IMPLEMENTATION_PLAN_5DAY.md](IMPLEMENTATION_PLAN_5DAY.md) · PC/DGX split: [WORKFLOW_PC_DGX.md](WORKFLOW_PC_DGX.md)
+PC/DGX split: [WORKFLOW_PC_DGX.md](WORKFLOW_PC_DGX.md)
 
 ## Architecture
 
