@@ -1,6 +1,6 @@
 # Hot Oceans — PC + DGX workflow
 
-*Companion to `IMPLEMENTATION_PLAN_5DAY.md`. Rule of thumb: **big data and heavy jobs stay on the DGX; code, small samples, results and the dashboard live on the PC.***
+Rule of thumb: **big data and heavy jobs stay on the DGX; code, small samples, results and the dashboard live on the PC.***
 
 ---
 
@@ -110,7 +110,7 @@ Total well under 1 GB → easy to `rsync` and fast in Streamlit on the PC.
 
 ## 8. Fallbacks
 
-- **No DGX access by end of Day 1:** run everything on the PC with the 0.5° grid (see `IMPLEMENTATION_PLAN_5DAY.md`).
+- **No DGX access by end of Day 1:** run everything on the PC with the 0.5° grid.
 - **PostGIS not allowed on DGX:** keep PostGIS only on the PC; load the small derived tables there from Parquet extracts.
 - **No internet on DGX at all:** download OISST on the PC (~5.5 GB) and `rsync` it up once.
 - **Scratch gets wiped:** keep raw downloads resumable and copy outputs to the PC at the end of each day.
